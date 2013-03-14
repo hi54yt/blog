@@ -1,1 +1,8 @@
-hello world!
+<p id="notice"><%= notice %></p>
+<p>Hello CrazyOnes!</p>
+
+<% @posts.each do |post| %>
+  <p><%= post.title %></p>
+<% end %>
+
+<%= link_to '发表文章',new_post_path %>
