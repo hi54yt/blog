@@ -15,5 +15,6 @@
 /log/*.log
 /tmp
 
+/public/assets/
 #Ignore the database config file.
 /config/database.yml
